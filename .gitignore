@@ -1,0 +1,4 @@
+# DEV ENVIRONMENT
+node_modules
+.env
+config.json

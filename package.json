@@ -1,0 +1,25 @@
+{
+  "name": "zurabotmax",
+  "version": "1.0.0",
+  "description": "A lightweight discord bot designed for the Zuramats community discord.",
+  "main": "index.js",
+  "author": "AGMB",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "axios": "^0.27.2",
+    "discord-api-types": "^0.35.0",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1"
+  }
+}
